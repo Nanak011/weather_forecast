@@ -233,7 +233,7 @@ def process_dynamic_forecast(address_input, target_date_str):
     
     aqi_status = "Good" if aqi_val < 50 else ("Moderate" if aqi_val < 100 else ("Poor / Unhealthy" if aqi_val < 200 else "Severe Hazard"))
     
-    # 🌟 FIXED: Thermally Adaptive RealFeel with Lower Bound Anchor
+    # Thermally Adaptive RealFeel with Lower Bound Anchor
     # Prevents high humidity from artificially inflating perceived temperatures below 26.7°C (80°F)
     if high_temp < 26.7:
         real_feel = high_temp
