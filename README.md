@@ -3,7 +3,7 @@
 This project is a Python-based web application that downloads forecast data from the National Oceanic and Atmospheric Administration (NOAA) Global Forecast System (GFS), extracts specific weather parameters for a given location, and visualizes the data using a 3D graphical panel.
 
 > ** Disclaimer: Personal Project & Estimation Model**
-> This application is a personal project developed for educational and visualization purposes only. The metrics presented—including the Air Quality Index (AQI) and RealFeel calculations—are **estimates based on heuristic models** and should not be used for critical decision-making, health safety, or as a substitute for official meteorological data. The GFS data ingestion is subject to network stability and server availability; please consult official weather services for reliable, production-grade information.
+> This application is a personal project developed for educational and visualization purposes only. The metrics presented-including the Air Quality Index (AQI) and RealFeel calculations-are **estimates based on heuristic models** and should not be used for critical decision-making, health safety, or as a substitute for official meteorological data. The GFS data ingestion is subject to network stability and server availability; please consult official weather services for reliable, production-grade information.
 
 ---
 
